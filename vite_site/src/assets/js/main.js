@@ -27,16 +27,17 @@ window.addEventListener('scroll', function(){
     } 
   }
   prevScrollTop = nowScrollTop;
-  });
-
+  
   // menu btn
   // const body = document.querySelector('body');
-  // const menubtn = document.querySelector('.header__menu__btn');
+  const menubtn = document.querySelector('.header__menu__btn');
   const allmenu = document.querySelector('.header-wrap');
   const dim = document.querySelector('.dim');
-  menu.addEventListener('click', function(){
+  menubtn.addEventListener('click', function(){
     allmenu.classList.add('active');
   });
   dim.addEventListener('click', function(){
     allmenu.classList.remove('active');
   })
+
+});
