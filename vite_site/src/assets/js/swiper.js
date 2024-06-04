@@ -23,5 +23,16 @@ let roomSwiper = new Swiper(".room", {
   },
 });
 
+
+let golfSwiper = new Swiper(".golf-wrap", {
+  slidesPerView: 1,
+  pagination: {
+  el: ".room__bullet",
+  clickable: true,
+},
+});
+
+
 mySwiper();
 roomSwiper();
+golfSwiper();
