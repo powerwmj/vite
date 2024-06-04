@@ -11,7 +11,655 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <h1>Vite 시작하기</h1>
+  <div class="wrapper bs-home">
+    {{> header }}
+    <!-- header.html -->
+
+  <main>
+      <!-- main visual -->
+      <section class="swiper visual">
+          <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <img src="./assets/img/kv_img_01_pc.png" alt=""  class="m-hide">
+                      <img src="./assets/img/kv_img_01_mo.png" alt=""  class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <img src="./assets/img/kv_img_02_pc.jpg" alt=""  class="m-hide">
+                      <img src="./assets/img/kv_img_02_mo.jpg" alt=""  class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <img src="./assets/img/kv_img_03_pc.png" alt=""  class="m-hide">
+                      <img src="./assets/img/kv_img_03_mo.png" alt=""  class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <img src="./assets/img/kv_img_04_pc.png" alt=""  class="m-hide">
+                      <img src="./assets/img/kv_img_04_mo.png" alt=""  class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <img src="./assets/img/kv_img_05_pc.png" alt="" class="m-hide">
+                      <img src="./assets/img/kv_img_05_mo.png" alt=""  class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <img src="./assets/img/kv_img_06_pc.png" alt=""  class="m-hide">
+                      <img src="./assets/img/kv_img_06_mo.png" alt=""  class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </li>
+          </ul>
+          <div class="visual__bullet"></div>
+          <div href="javascript:;" class="visual__arrow">
+              <a href="javascript:;" class="visual__arrow__prev"><span class="blind">이전</span></a>
+              <a href="javascript:;" class="visual__arrow__next"><span class="blind">다음</span></a>
+          </div>
+      </section>
+      <!--// main visual -->
+      <!-- 설해원의 품격 -->
+      <section class="sec-dignity">        
+          <video>
+              <source src="https://www.seolhaeone.com/resource/video/index_video1.mp4" type="video/mp4">
+              <source src="https://www.seolhaeone.com/resource/video/index_video1.webm" type="video/webm">
+          </video>
+
+          <div class="text-box">
+
+              <h2 class="text-box__title">
+                  설해원의 품격
+              </h2>
+
+              <p class="text-box__text">
+                  설해원의 창을 여니<br>
+                  바람과 함께 자연이들어온다
+              </p>
+
+              <p class="text-box__text m-hide">
+                  설해원의 문을 여니<br>
+                  사람과 함께 행복이 동행한다
+              </p>
+          </div>
+
+      </section>
+      <!--// 설해원의 품격 -->
+
+      <!-- 객실 -->
+      <section class="sec-room">
+          <div class="swiper room">
+              <ul class="swiper-wrapper">
+                  <li class="swiper-slide room__item">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_room_01_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_room_01_mo.jpg" alt="" class="m-show">
+
+                          <figcaption>객실</figcaption>
+                      </figure> 
+                      <div class="text-box-absolute">
+                          <h2 class="text-box__title">객실</h2>
+                          <p class="text-box__text">품격과 편안함이 조화를 이루고 <br>개성과 다양함이 황금분할된 휴식</p>
+                          <a href="javascript:;" class="text-box__link">><span class="blind">더 알아보기</span></a>
+                      </div>                   
+                  </li>
+
+                  <li class="swiper-slide room__item">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_room_02_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_room_02_mo.jpg" alt="" class="m-show">
+
+                          <figcaption>객실</figcaption>
+                      </figure>                    
+                  </li>
+
+                  <li class="swiper-slide room__item">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_room_03_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_room_03_mo.jpg" alt="" class="m-show">
+
+                          <figcaption>객실</figcaption>
+                      </figure>                    
+                  </li>
+
+                  <li class="swiper-slide room__item m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_room_04_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_room_04_mo.jpg" alt="" class="m-show">
+
+                          <figcaption>객실</figcaption>
+                      </figure> 
+                      <div class="text-box-absolute">
+                          <h3 class="text-box__title">마운틴스테이</h3>
+                          <p class="text-box__text">최고의 전망과 품격에 팬백의 향기가 <br>더해진 독립적 빌라타입 객실</p>
+                          <a href="javascript:;" class="text-box__link">><span class="blind">더 알아보기</span></a>
+                      </div>                   
+                  </li>
+
+                  <li class="swiper-slide room__item m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_room_05_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_room_05_mo.jpg" alt="" class="m-show">
+
+                          <figcaption>객실</figcaption>
+                      </figure> 
+                      <div class="text-box-absolute">
+                          <h3 class="text-box__title">설해온천</h3>
+                          <p class="text-box__text">최고의 전망과 품격에 팬백의 향기가 <br>더해진 독립적 빌라타입 객실</p>
+                          <a href="javascript:;" class="text-box__link">><span class="blind">더 알아보기</span></a>
+                      </div>                   
+                  </li>
+
+                  <li class="swiper-slide room__item m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_room_06_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_room_06_mo.jpg" alt="" class="m-show">
+
+                          <figcaption>객실</figcaption>
+                      </figure> 
+                      <div class="text-box-absolute">
+                          <h3 class="text-box__title">골프텔</h3>
+                          <p class="text-box__text">최고의 전망과 품격에 팬백의 향기가 <br>더해진 독립적 빌라타입 객실</p>
+                          <a href="javascript:;" class="text-box__link">><span class="blind">더 알아보기</span></a>
+                      </div>                   
+                  </li>
+              </ul>
+              <div class="room__bullet"></div>
+          </div>
+      </section>
+      <!--// 객실 -->
+
+      <!-- 시설안내 -->
+      <section class="sec-facility m-hide">
+          <div class="inner">
+              <div class="facility">
+                  <div class="text-box-base">
+                      <h3 class="text-box-base__title">마운틴스테이</h3>
+                      <p class="text-box-base__text">최고의 전망과 품격에 팬백의 향기가 <br>더해진 독립적 빌라타입 객실</p>
+                      <a href="javascript:;" class="text-box-base__link">><span class="blind">더 알아보기</span></a>
+                  </div>
+                  <figure class="img-box">
+                      <img src="./assets/img/sec_room_img_01_pc.jpg" alt="" class="m-hide">
+                      <img src="./assets/img/sec_room_img_01_mo.jpg" alt="" class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </div>
+
+              <div class="facility">
+                  <div class="text-box-base">
+                      <h3 class="text-box-base__title">설해온천</h3>
+                      <p class="text-box-base__text">최고의 전망과 품격에 팬백의 향기가 <br>더해진 독립적 빌라타입 객실</p>
+                      <a href="javascript:;" class="text-box-base__link">><span class="blind">더 알아보기</span></a>
+                  </div>
+                  <figure class="img-box">
+                      <img src="./assets/img/sec_room_img_02_pc.jpg" alt="" class="m-hide">
+                      <img src="./assets/img/sec_room_img_02_mo.jpg" alt="" class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </div>
+
+              <div class="facility">
+                  <div class="text-box-base">
+                      <h3 class="text-box-base__title">골프텔</h3>
+                      <p class="text-box-base__text">최고의 전망과 품격에 팬백의 향기가 <br>더해진 독립적 빌라타입 객실</p>
+                      <a href="javascript:;" class="text-box-base__link">><span class="blind">더 알아보기</span></a>
+                  </div>
+                  <figure class="img-box">
+                      <img src="./assets/img/sec_room_img_03_pc.jpg" alt="" class="m-hide">
+                      <img src="./assets/img/sec_room_img_03_mo.jpg" alt="" class="m-show">
+
+                      <figcaption></figcaption>
+                  </figure>
+              </div>
+          </div>
+      </section>
+      <!--// 시설안내 -->
+      <!-- 골프의 품격 -->
+      <section class="sec-dignity golf">
+          <div class="inner">
+              <video>
+                  <source src="https://www.seolhaeone.com/resource/video/index_video2.mp4">
+                  <source src="https://www.seolhaeone.com/resource/video/index_video2.webm">
+              </video>
+
+              <div class="text-box">
+                  <h2 class="text-box__title">
+                      골프의 품격
+                  </h2>
+
+                  <p class="text-box__text">
+                      동해바다를 향해 티샷을 날리고<br>
+                      대청봉을 향해 세컨샷을 날린다
+                  </p>
+
+                  <p class="text-box__text m-hide">
+                      설악과 동해를 갤러리 삼아 즐기니<br>
+                      매일 라운딩을 해도 설레고<br>
+                      행복하다
+                  </p>
+              </div>
+          </div>
+
+          <div class="golf-wrap">
+              <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_golf_02_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_golf_02_mo.jpg" alt="" class="m-show">
+
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box-base">
+                          <h2 class="text-box-base__title">골프</h2>
+                          <p class="text-box-base__text">8회 연속 대한민국 10대 코스 선정 <br>무결점 코스를 완성하는 완벽한 코스 관리</p>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_golf_02_pc.jpg" alt="" class="m-hide">
+                          <img src="./assets/img/sec_golf_02_mo.jpg" alt="" class="m-show">
+
+                          <figcaption></figcaption>
+                      </figure>
+                  </li>
+              </ul>
+          </div>
+
+      </section>
+      <!--// 골프의 품격 -->
+
+      <!-- 물의 품격-->
+      <section class="sec-dignity spa">
+          <div class="inner">
+              <video>
+                  <source src="https://www.seolhaeone.com/resource/video/index_video3.mp4">
+                  <source src="https://www.seolhaeone.com/resource/video/index_video3.webm">
+              </video>
+
+              <div class="text-box">
+                  <h2 class="text-box__title">
+                      물의 품격
+                  </h2>
+
+                  <p class="text-box__text">
+                      설해원이 따뜻한 이유<br>
+                      건강과 웃음이 가득한 이유
+                  </p>
+
+                  <p class="text-box__text m-hide">
+                      설해온천의 물줄기로<br>
+                      오는이의 피로를 씻어주니
+                  </p>
+              </div>
+          </div>
+
+          <div class="spa-wrap">
+              <ul class="swiper-wrapper">
+                  <li class="swiper-slide m-hide">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_01.jpg">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">온천</h3>
+      
+                          <p class="text-box__text">19억 년 자연이 잉태한 물, 설해온천수 <br>태고의 신비를 간직한 물로 피로를 씻고, <br>설악과 동해의 자연으로 마음을 씻으세요.</p>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_02_mo.jpg">
+
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">온천사우나</h3>
+      
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_03_mo.jpg">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">노천스파</h3>
+      
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_04_mo.jpg">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">온천수영장</h3>
+      
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_05_mo.jpg">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">면역공방</h3>
+      
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide m-show">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_06_mo.jpg">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">클라리스파</h3>
+      
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+              </ul>
+              
+          </div>
+
+          <div class="spa-info">
+              <div class="inner">
+                  <div class="spa">
+                      <div class="text-box">
+                          <h3 class="text-box__title">온천사우나</h3>
+                          <p class="text-box__text">설해온천수와 함께 울창한 숲을 <br>조망하는 자연 그대로의 휴식</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_01.jpg" alt="">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                  </div>
+  
+                  <div class="spa">
+                      <div class="text-box">
+                          <h3 class="text-box__title">노천스파</h3>
+                          <p class="text-box__text">설해온천 가장 높은 곳, <br>독립 카바나에서 누리는 휴식</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_02.jpg" alt="">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                  </div>
+  
+                  <div class="spa">
+                      <div class="text-box">
+                          <h3 class="text-box__title">온천수영장</h3>
+                          <p class="text-box__text">태백과 마주한 절경 속에서 <br>누리는 따뜻한 힐링과 웃음</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_03.jpg" alt="">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                  </div>
+
+                  <div class="spa">
+                      <div class="text-box">
+                          <h3 class="text-box__title">면역공방</h3>
+                          <p class="text-box__text">검증받은 파동석이 독소와 <br>피로는 빼주고 건강은 올려주고</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_04.jpg" alt="">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                  </div>
+
+                  <div class="spa">
+                      <div class="text-box">
+                          <h3 class="text-box__title">클라리스파</h3>
+                          <p class="text-box__text">1:1맞춤 스파 프로그램으로 <br>활력을 되찾는 곳</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_spa_05.jpg" alt="">
+      
+                          <figcaption></figcaption>
+                      </figure>
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <!--// 물의 품격 -->
+
+      <!-- 가족/휴식 의 품격 -->
+      <section class="sec-dignity family">
+          <div class="inner">
+              <video>
+                  <source src="https://www.seolhaeone.com/resource/video/index_video3.mp4">
+                  <source src="https://www.seolhaeone.com/resource/video/index_video3.webm">
+              </video>
+
+              <div class="text-box m-hide">
+                  <h2 class="text-box__title">
+                      가족의 품격
+                  </h2>
+
+                  <p class="text-box__text">
+                      내 가족은 행복해야 할<br>
+                      권리가 있기에
+                  </p>
+
+                  <p class="text-box__text">
+                      산책을 하든 글램핑을 하든<br>
+                      그저 뛰어 놀든
+                  </p>
+                  <p class="text-box__text">
+                      무엇을 해도 200%의<br>
+                      행복을 채운다
+                  </p>
+              </div>
+
+              <div class="text-box m-show">
+                  <h2 class="text-box__title">
+                      휴식의 품격
+                  </h2>
+
+                  <p class="text-box__text">
+                      무엇을 하든 아무 것 하지 않든<br>
+                      가족의 휴식에 행복을 채워주는 곳
+                  </p>
+              </div>
+          </div>
+
+          <div class="">
+              <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_family_img_01.jpg" alt="" class="m-hide">
+                          <img src="">
+
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">폴라 다이닝 & 바</h3>
+                          <p class="text-box__text">현대적이고 세련된 인테리어와 캐주얼하면서도 <br>편안한 좌석으로 가벼운 식사 및 안주를 즐길 수 있는 공간</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_family_img_02.jpg" alt="" class="m-hide">
+                          <img src="">
+
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">해풍길</h3>
+                          <p class="text-box__text">자연이 만든 산책로, <br>가족을 위한 행복로!</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+
+                  <li class="swiper-slide">
+                      <figure class="img-box">
+                          <img src="./assets/img/sec_family_img_03.jpg" alt="" class="m-hide">
+                          <img src="">
+
+                          <figcaption></figcaption>
+                      </figure>
+                      <div class="text-box">
+                          <h3 class="text-box__title">설해원 생각</h3>
+                          <p class="text-box__text">느리지만 자연과 가까워지는 행복을 <br>만끽하는 슬로우라이프</p>
+                          <a href="javascript:;" class="">><span class="blind">더 알아보기</span></a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </section>
+      <!--// 가족/휴식 의 품격 -->
+
+      <!-- special offer -->
+      <section class="sec-event">
+          <div class="text-box">
+              <h2 class="text-box__title">SPECIAL OFFER</h2>
+              <p class="text-box__text">격이 다른 리조트, 설해원의 다양한 소식과 혜택으로 가득한 프로모션을 알려드립니다.</p>
+          </div>
+
+          <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <span class="sec-event__tag">이벤트</span>
+                      <img src="">
+                      <img src="">
+
+                      <figcaption></figcaption>
+                  </figure>
+                  <div class="text-box">
+                      <h3 class="text-box__title">풀라 다이닝&바 'Spring Delight' 칵테일 출시</h3>
+                      <p class="text-box__date">2024.03.15 ~ 2024.06.14</p>
+                  </div>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <span class="sec-event__tag">이벤트</span>
+                      <img src="">
+                      <img src="">
+
+                      <figcaption></figcaption>
+                  </figure>
+                  <div class="text-box">
+                      <h3 class="text-box__title">풀라 다이닝&바 'Let's POOLCNIN Today'</h3>
+                      <p class="text-box__date">2024.05.03 ~ 2024.05.31</p>
+                  </div>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <span class="sec-event__tag">이벤트</span>
+                      <img src="">
+                      <img src="">
+
+                      <figcaption></figcaption>
+                  </figure>
+                  <div class="text-box">
+                      <h3 class="text-box__title">설해빵집 '애플망고 빙수' 출시</h3>
+                      <p class="text-box__date">2024.05.03 ~ 2024.05.31</p>
+                  </div>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <span class="sec-event__tag">이벤트</span>
+                      <img src="">
+                      <img src="">
+
+                      <figcaption></figcaption>
+                  </figure>
+                  <div class="text-box">
+                      <h3 class="text-box__title">풀라 다이닝&바 ' 키즈 카텍일'</h3>
+                      <p class="text-box__date">2024.05.03 ~ 2024.05.31</p>
+                  </div>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <span class="sec-event__tag">이벤트</span>
+                      <img src="">
+                      <img src="">
+
+                      <figcaption></figcaption>
+                  </figure>
+                  <div class="text-box">
+                      <h3 class="text-box__title">곧은 '중화코스'</h3>
+                      <p class="text-box__date">2024.05.03 ~ 2024.05.31</p>
+                  </div>
+              </li>
+
+              <li class="swiper-slide">
+                  <figure class="img-box">
+                      <span class="sec-event__tag">이벤트</span>
+                      <img src="">
+                      <img src="">
+
+                      <figcaption></figcaption>
+                  </figure>
+                  <div class="text-box">
+                      <h3 class="text-box__title">곧은 레스토랑 '통갑오징어 백짬뽕' 출시</h3>
+                      <p class="text-box__date">2024.05.03 ~ 2024.05.31</p>
+                  </div>
+              </li>
+          </ul>
+
+      </section>
+      <!--// special offer -->
+  </main>
+    <!-- main.html -->
+    {{> footer }}
+    <!-- footer.html -->
+  </div>
     <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

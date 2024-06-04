@@ -1,0 +1,166 @@
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nanum-gothic-bold {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nanum-myeongjo-bold {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+// reset
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.285;
+}
+
+// html {
+//   height: 100%;
+// }
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+picture,
+figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+picture img,
+picture source {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+}
+
+em {
+  font-style: normal;
+}
+
+p,
+ul,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+}
+
+i {
+  display: block;
+  font-style: normal;
+}
+
+
+
+section {
+  position: relative;
+  margin: 0 auto;
+}
+
+.hidden,
+.blind {
+  position: absolute !important;
+  top: auto !important;
+  left: auto !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  text-indent: 0px !important;
+}
+
+.hidden::before,
+.blind::before {
+  display: block;
+  width: 0;
+  height: 0;
+  content: '\00a0';
+  font-size: 0;
+}
+
+.m-hide {
+  display: block !important;
+}
+
+.m-show {
+  display: none !important;
+}
+
+.img-box {
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
+.img-box img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+  section {
+    max-width: none;
+  }
+
+
+  .m-hide {
+    display: none !important;
+  }
+
+  .m-show {
+    display: block !important;
+  }
+
+}
